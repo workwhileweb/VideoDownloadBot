@@ -1,0 +1,31 @@
+tại sao lại phải build lại? youtube-dl-exec
+
+và npm lib tại sao lại build được? build là build cái gì?
+và có exe rồi embed thôi thì cần gì phải có python nữa? lắm chuyện?
+
+https://github.com/microlinkhq/youtube-dl-exec
+
+
+
+
+➤ YN0007: │ sharp@npm:0.30.0 must be built because it never has been before or the last one failed
+➤ YN0007: │ nodemon@npm:2.0.15 must be built because it never has been before or the last one failed
+
+➤ YN0007: │ es5-ext@npm:0.10.64 must be built because it never has been before or the last one failed
+➤ YN0007: │ youtube-dl-exec@npm:3.0.7 must be built because it never has been before or the last one failed
+➤ YN0009: │ youtube-dl-exec@npm:3.0.7 couldn't be built successfully (exit code 1, logs can be found here: C:\Users\TUANAD~1\AppData\Local\Temp\xfs-a0df167e\build.log)
+
+# This file contains the result of Yarn building a package (youtube-dl-exec@npm:3.0.7)
+# Script name: preinstall
+
+file:///D:/wWw/TTT/VideoDownloadBot/node_modules/youtube-dl-exec/scripts/preinstall.mjs:4
+  throw new Error(
+        ^
+
+Error: youtube-dl-exec needs Python. Couldn't find version of `python`. You can skip this check passing `YOUTUBE_DL_SKIP_PYTHON_CHECK=1`
+    at throwError (file:///D:/wWw/TTT/VideoDownloadBot/node_modules/youtube-dl-exec/scripts/preinstall.mjs:4:9)
+    at file:///D:/wWw/TTT/VideoDownloadBot/node_modules/youtube-dl-exec/scripts/preinstall.mjs:20:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v22.4.0
+
